@@ -23,6 +23,9 @@ if((CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME) OR BUILD_TESTING)
     # To avoid errors during compilation of igloo
     set(CMAKE_CXX_FLAGS "-Wno-error=deprecated-declarations")
 
+    # igloo needs some CXX11 features like `std::auto_ptr` to be enabled
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -D_LIBCPP_ENABLE_CXX17_REMOVED_FEATURES")
+
     include_directories("${PROJECT_SOURCE_DIR}/extern/igloo")
     add_subdirectory(test)
 endif()
