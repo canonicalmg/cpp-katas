@@ -1,0 +1,7 @@
+---
+version: "3.2"
+services:
+  c-katas-tests:
+    image: borisskert/cpp-katas-tests:local
+    build: .
+    container_name: cpp-katas-tests

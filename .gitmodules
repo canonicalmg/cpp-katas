@@ -1,0 +1,3 @@
+[submodule "extern/igloo"]
+	path = extern/igloo
+	url = https://github.com/joakimkarlsson/igloo.git

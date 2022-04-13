@@ -1,6 +1,8 @@
 #ifndef CPP_KATAS_LIBRARY_H
 #define CPP_KATAS_LIBRARY_H
 
-void hello();
+#include <string>
+
+std::string greeting();
 
 #endif //CPP_KATAS_LIBRARY_H
