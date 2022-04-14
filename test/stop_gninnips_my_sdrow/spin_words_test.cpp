@@ -3,7 +3,7 @@
 
 using namespace igloo;
 
-Describe(Sample_Tests) {
+Describe(Stop_gninnipS_My_sdroW) {
     It(Single_Word) {
         Assert::That(spinWords("Welcome"), Equals("emocleW"));
         Assert::That(spinWords("to"), Equals("to"));
