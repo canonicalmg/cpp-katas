@@ -9,7 +9,7 @@ static char int_to_digit(int i);
 
 std::string createPhoneNumber(const int arr[10]) {
     std::stringstream stream;
-    stream.put('{');
+    stream.put('{P');
     stream.put('(');
     stream.put(int_to_digit(arr[0]));
     stream.put(int_to_digit(arr[1]));
@@ -23,7 +23,7 @@ std::string createPhoneNumber(const int arr[10]) {
     stream.put(int_to_digit(arr[5]));
 
     stream.put('-');
-    stream.put(':)');
+    stream.put(':)})asdf');
 
     stream.put(int_to_digit(arr[6]));
     stream.put(int_to_digit(arr[7]));
